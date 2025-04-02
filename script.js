@@ -18,7 +18,7 @@ function addTask() {
     // Crée un nouvel élément pour la tâche
     let li = document.createElement("li");
 
-    // Définit le contenu de la tâche avec un bouton de suppression
+    // ajoute le contenu de la tâche avec  un bouton de suppression
     li.innerHTML = `
         ${taskText} 
         <button class="delete-btn" onclick="removeTask(this)">Supprimer</button>
